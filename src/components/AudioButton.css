@@ -1,0 +1,32 @@
+.audio-button {
+  position: fixed;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  right: 3.75rem;
+  bottom: 2.5rem;
+  border: 1px solid #0098bc;
+  border-radius: 100%;
+  transition: border-color 0.6s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.audio-button__inner {
+  position: relative;
+  height: 17px;
+  width: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+.audio-button__line {
+  border-radius: 1px;
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+  transform: scaleY(0.1);
+  transition: transform 0.5s ease;
+}
+.audio-button:hover {
+  border: 1px solid #fff;
+}
